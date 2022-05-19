@@ -1,6 +1,6 @@
 
 <!-- Big image> -->
-[![Lamas](https://lesglobeblogueurs.com/wp-content/uploads/2016/06/DSC03839-scaled.jpg#big)](https://lesglobeblogueurs.com/paysages-parcs-naturels-amerique-sud-latine/)
+![Lamas](https://lesglobeblogueurs.com/wp-content/uploads/2016/06/DSC03839-scaled.jpg#big)
 # Bienvenu.e a mon blog Voyage-Voyage!
 
 
@@ -8,13 +8,10 @@
 ##Ce mois on rêve d'Amerique du Sud, ses plages, ses fôrets, ses cultures colorées.
 <br><br>
 
-|![Sao Paolo](assets\img\sao-paulo-s.jpeg) *Sao Paolo* **Brésil**|![San Pedro](assets\img\valle-luna_luna_s.jpg) *San Pedro de Atacama* **Chili**|![Buenos Aires](assets\img\buenos-aires-s.jpg) *Buenos Aires* **Argentine**|![Machu Pichu](assets\img\machu-picchu-s.jpg) *Machu Pichu* **Pérou**|
-|:---------:|:--------:|:------------:|:--------:|
-| | |  |  |
+|![Sao Paolo](assets\img\sao-paulo-s.jpeg) |![San Pedro](assets\img\valle-luna_luna_s.jpg) |![Buenos Aires](assets\img\buenos-aires-s.jpg) |![Machu Pichu](assets\img\machu-picchu-s.jpg) |
+|:--:|:--:|:--:|:--:|
+|*Sao Paolo* **Brésil** |*San Pedro de Atacama* **Chili** |*Buenos Aires* **Argentine** |*Machu Pichu* **Pérou** |
 
-
-<br><br>
-***
 <br><br>
 
 ## Amerique du Sud

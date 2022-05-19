@@ -6,10 +6,17 @@
     text-decoration: none;
     font-family: font-family, 'Lora', serif;
 }
+a {
+    color:black;
+    font-family: 'Quicksand', sans-serif;
 
+}
 h1 {
     font-family: 'Maven Pro', sans-serif;
     font-size: 3rem;
+    color: black;
+    background-color:rgb(43, 136, 92);
+    line-height: 4rem;
     text-align: center;
     margin-bottom: 40px;
     padding-top: 2rem;
@@ -32,7 +39,114 @@ h5 {
     max-width: 100%;
  }
 
+.menu_burger {
+    display: none;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    /*position: absolute;*/
+}
+
+ul {
+    
+    display: flex;
+    margin: auto;   
+}
+
+nav ul li {
+   
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 1em;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+.navigation_items {
+    padding: 0 20px;
+    
+}
+
+.logo-nav img {
+    border-radius: 50%;
+    width : 100px;
+    height : 100px;
+    margin-top: -20px;
+    margin-left: 20px;
+    z-index: 1;
+    overflow: visible;
+    position: absolute;
+}
+
  p {
      text-align: center;
      padding: 2rem;
  }
+ /* Footer */
+.footer {
+    background-color: #f6f6f6;
+    font-size: small;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+#footer_block {
+    display: flex;
+    padding: 4em;
+    
+}
+
+.logo {
+    border-radius: 50%;
+    width : 80px;
+    height : auto;
+}
+
+.f_down {
+    display: flex;
+    justify-content: center;
+   /* display: flex;
+    justify-content: center;
+    padding: 15% 0 0 0;*/
+
+}
+.footer_list {
+    /*margin: 2%;*/
+    padding: 0 50px 0 50px;
+}
+.footer-list__title {
+    padding-bottom: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+
+/* Media queries */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .navigation_items {
+        display: none;
+    }
+    .menu_burger, .navigation_login {
+        display: inherit;
+        display:flex; 
+        justify-self: flex-end;   
+    }
+    .nav:first-child {
+        margin:auto;
+    }
+
+}

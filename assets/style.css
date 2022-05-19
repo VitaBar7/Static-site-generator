@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100vw;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     color:black;
 }
 img[src*="#big"] {
-    width: 100%;
+    width: 100vw;
     height: auto;
     position: relative;
 }
@@ -25,7 +26,7 @@ h1 {
     margin: 2rem
 }
 h2 {
-    background-color: gray;
+    background-color:rgb(43, 136, 92);
     color: #f6f6f6;
     font-size: 2rem;
     line-height: 4rem;
@@ -58,6 +59,8 @@ nav {
     justify-content: space-between;
     height: 50px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color:black;
     /*position: absolute;*/
 }
 
@@ -156,7 +159,7 @@ table:last-child {
     
 }
 #mesderniresdestinations, #parcequechaquevoyageestdiffrent {
-    background-color:gray;
+    background-color:rgb(43, 136, 92);
     color: white;
 }
 

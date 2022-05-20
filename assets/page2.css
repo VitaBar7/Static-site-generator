@@ -5,16 +5,29 @@
     list-style: none;
     text-decoration: none;
     font-family: font-family, 'Lora', serif;
+    line-height: 1.5rem;
 }
 a {
     color:black;
     font-family: 'Quicksand', sans-serif;
 
 }
+a { 
+    color: black; 
+} 
+a:hover { 
+    color: #f1e53e;
+ }
+
+ /*a:visited {
+     color:#562f5e;
+ }*/
+
 h1 {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 3rem;
-    color: black;
+    /*font-family: 'Maven Pro', sans-serif;*/
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    color: white;
     background-color:rgb(43, 136, 92);
     line-height: 4rem;
     text-align: center;
@@ -25,6 +38,7 @@ h1 {
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
+    letter-spacing: 0.1rem;
     text-align: center;
 
 }
@@ -51,6 +65,8 @@ nav {
     justify-content: space-between;
     height: 50px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.07em;
     color: black;
     /*position: absolute;*/
 }
@@ -99,6 +115,11 @@ nav ul li {
     padding-top: 0;
     padding-bottom: 1rem;
 }
+footer h3 {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
 
 #footer_block {
     display: flex;
@@ -121,14 +142,15 @@ nav ul li {
 
 }
 .footer_list {
-    /*margin: 2%;*/
-    padding: 0 50px 0 50px;
+    
+    padding: 0 70px 0 70px;
 }
 .footer-list__title {
-    padding-bottom: 2%;
+
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: medium;
+    text-align: center;
 }
 
 

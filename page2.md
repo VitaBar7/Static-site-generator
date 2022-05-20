@@ -1,6 +1,6 @@
 
 # Mes Coups de coeurs en Amérique du Sud
-
+<br>
 ### 1. Les chutes d'Iguazú à la frontière entre le Brésil (20%) et l'Argentine (80%)
 Les Chutes d’Iguazú font parties des **3 chutes les plus spectaculaires au monde** avec celles de Victoria et de Niagara. Elles se trouvent dans un environnement tropical et les visiter, bien que très touristiques, est vraiment remarquable. Il ne s’agit pas à proprement parler d’une chute, mais d’un ensemble de **275 cascades formant un front de 3 km environ**. La plus haute d’entre elles atteint les 80 m de hauteur. On l’appelle la Gorge du Diable « *Garganta del Diablo* » en espagnol ou « *Garganta do Diabo* » en portugais. L’ensemble des cascades déverse jusqu’à 6 millions de litres d’eau à la seconde.<br>
 ![chutes d'eaux](https://www.lonelyplanet.fr/sites/lonelyplanet/files/media/wysiwyg/fotolia_60416976_subscription_monthly_m.jpg)

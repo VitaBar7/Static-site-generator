@@ -28,7 +28,7 @@ h1 {
     margin: 2rem
 }
 h2 {
-    background-color:rgb(43, 136, 92);
+    background-color:rgb(54, 168, 115);
     font-family: 'Quicksand', sans-serif;
     color: #f6f6f6;
     font-size: 2rem;
@@ -239,7 +239,7 @@ table:last-child {
 
 
 /* Media queries */
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones up to 576px) */
 @media (max-width: 576px) {
     ul {
         display: none;

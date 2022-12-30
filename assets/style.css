@@ -6,13 +6,15 @@
     text-decoration: none;
     color:black;
 }
-/*img[src*="#big"] {
+
+img[src*="#big"] {
     height: auto;
     position: relative;
-}*/
+}
+
 .container p img:first-child {
     width: 100%;
-}
+} 
 
 h1 {
     font-family: 'Caveat', cursive;
@@ -29,34 +31,37 @@ h1 {
 }
 h2 {
     background-color:rgb(54, 168, 115);
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Caveat', cursive;
     color: #f6f6f6;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
     letter-spacing: 0.1rem;
     text-align: center;
 }
 
 h3 {
     font-family: 'Quicksand', sans-serif;
-    /*padding-left: 10px;*/
-    text-align: center;
-    
+    text-align: center; 
 }
+
 h5 {
     font-family: 'Quicksand', sans-serif;
     padding: 0 0 0 3%
 }
+
 .menu_burger {
     display: none;
     padding: 0 20px;
     z-index: 10;
 }
+
 .side_menu {
     height: 100vh;
     width: 0%;
     position:absolute;
     top: 0;
+    z-index: 10;
     background-color: #fff;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
     transition: 550ms ease-in-out;
@@ -64,7 +69,7 @@ h5 {
 
 }
 
-.side_menu.active {
+.side_menu .active {
     width: 70%;
     transition: width 750ms ease-in-out;
     overflow: auto;
@@ -95,14 +100,12 @@ ul {
 }
 
 nav ul li {
-   
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     opacity: 0.8;
     font-size: 1em;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 .navigation_items {
@@ -119,8 +122,6 @@ nav ul li {
     z-index: 1;
     overflow: visible;
     position: absolute;
-
-
 }
 
 hr {
@@ -128,7 +129,7 @@ hr {
     opacity: 0.5;
 }
 
-.container table:first-child tbody tr:nth-child(3) td strong embed {
+/* .container table:first-child strong embed {
     position: absolute;
     z-index: 1;
     font-size: 2rem;
@@ -136,50 +137,35 @@ hr {
     color: white;
     width: 400px;
     bottom: 0;
-    border-top-left-radius: 0.5rem;
-
-}
+} */
 
 table {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-around;*/
     max-width: 100%;
-    padding: 2rem;
+    padding-top: 2rem;
     padding-right: 4rem;
+}
 
+table:nth-child(2) td {
+    max-width: 40%;
 }
 
 table strong {
     font-family: font-family,'Caveat', cursive;
     font-size: 1.5rem;
-
 }
 
 body {
-
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
     font-family: font-family, 'Lora', serif;
     font-size: 1em;
     line-height: 1.5em;
 }
-body img {
-    overflow-x: hidden;
-}
+
 
 img[src*="#girl"] {
     width: 49%;
     height: auto;
 }
-.container img {
-    /*max-width: 100vw;
-    max-height: 100vh;
-    /*over-flow: hidden;*/
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
 
-}
 /* container section 3 */
 table:last-child {
     background-color:white;
@@ -191,7 +177,7 @@ table:last-child {
     
 }
 #mesderniresdestinations, #parcequechaquevoyageestdiffrent {
-    background-color:rgb(43, 136, 92);
+    background-color:rgb(54, 168, 115);
     color: white;
     letter-spacing: 0.4rem;
 }
@@ -219,10 +205,7 @@ table:last-child {
 .f_down {
     display: flex;
     justify-content: center;
-   /* display: flex;
-    justify-content: center;
-    padding: 15% 0 0 0;*/
-
+   
 }
 .footer_list {
     /*margin: 2%;*/
@@ -298,6 +281,7 @@ table:last-child {
         top: 10px;
         left: 200px;
     }
+
 
     br {
         display:none;

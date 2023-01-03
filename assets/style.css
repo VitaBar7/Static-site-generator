@@ -84,7 +84,6 @@ nav {
     font-size: 1.1em;
     letter-spacing: 0.07em;
     color:black;
-    
 }
 
 a {
@@ -142,11 +141,18 @@ hr {
 table {
     max-width: 100%;
     padding-top: 2rem;
-    padding-right: 4rem;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
-table:nth-child(2) td {
-    max-width: 40%;
+/* table:nth-child(2) {
+    margin-left: 10px;
+} */
+
+img[src*="#max"] {
+    max-width: 95%;
+    margin-left:10px;
+    border-radius: 15px;
 }
 
 table strong {

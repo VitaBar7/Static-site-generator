@@ -55,8 +55,9 @@ h2 {
     margin-top: 4rem;
     margin-bottom: 1rem;
     font-family: 'Caveat', cursive;
-    color: rgb(49, 35, 31);
-    font-size: 2.5rem;
+    color: rgb(69, 36, 27);
+    /* color:#222731; */
+    font-size: 2.8rem;
     line-height: 3rem;
     letter-spacing: 0.1rem;
     text-align: center;
@@ -113,8 +114,12 @@ a {
   font-weight:600;
 }
 a:hover {
-    color: #8b6548;
     
+    color:rgb(238, 97, 16);
+    
+}
+a:active {
+    color: #8b6548;
 }
 
 ul { 
@@ -189,7 +194,7 @@ img[src*="#max"] {
 table strong {
     font-family: font-family,'Caveat', cursive;
     font-size: 1.5rem;
-    
+    color:rgb(238, 97, 16);
 }
 
 table em {
@@ -230,7 +235,6 @@ table:last-child td {
 
 #mesderniresdestinations, #parcequechaquevoyageestdiffrent { 
     
-    letter-spacing: 0.4rem;
     text-align: left;
     padding-left: 30px;
     padding-bottom:2px;
@@ -254,7 +258,7 @@ table:last-child td {
 }
 
 footer a:hover {
-    color:brown
+    color:brown;
 }
 
 .logo {

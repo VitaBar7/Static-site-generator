@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fcf9ef;
+    
     font-family: font-family, 'Lora', serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -32,7 +32,6 @@ h1 {
     font-family: 'Caveat', cursive;
     position: absolute;
     z-index: 1;
-    /* background: #97909073; */
     top: 250px;
     padding: 1rem;
     font-size: 5rem;
@@ -56,7 +55,7 @@ h2 {
     margin-top: 4rem;
     margin-bottom: 1rem;
     font-family: 'Caveat', cursive;
-    color: #6a4d37;
+    color: rgb(49, 35, 31);
     font-size: 2.5rem;
     line-height: 3rem;
     letter-spacing: 0.1rem;
@@ -141,6 +140,8 @@ nav ul li {
 }
 
 .logo-nav img{
+    width:100px;
+    height:auto;
     border-radius:50%;
     margin-top: 36px;
     margin-left: 20px;
@@ -149,9 +150,8 @@ nav ul li {
 }
 
 .logo-nav img:hover {
-    width:100px;
-    height:auto;
-
+    transform: rotate(-45deg);
+    transition: transform 2s ease-out;
 }
 
 /* container section 1 */
@@ -224,6 +224,10 @@ table:last-child td {
     padding:0;
 }
 
+#mes9topconseillespourbienvoyager {
+    margin-bottom: 2rem;
+}
+
 #mesderniresdestinations, #parcequechaquevoyageestdiffrent { 
     
     letter-spacing: 0.4rem;
@@ -235,7 +239,7 @@ table:last-child td {
 /* Footer */
 .footer {
     margin-top:50px;
-    background-color: #ffffff;
+    background-color: #fcf9ef;
     font-family: 'Quicksand', sans-serif;
     font-size: small;
     padding-top: 0;
@@ -244,8 +248,13 @@ table:last-child td {
 
 #footer_block {
     display: flex;
+    flex-direction: row;
     padding: 4em;
     
+}
+
+footer a:hover {
+    color:brown
 }
 
 .logo {
@@ -254,9 +263,15 @@ table:last-child td {
     height : auto;
 }
 
+.logo:hover {
+    transform: rotate(-45deg);
+    transition: transform 2s ease-out;
+}
+
 .f_down {
     display: flex;
     justify-content: center;
+    margin-top:24px;
    
 }
 .footer_list {
@@ -268,7 +283,10 @@ table:last-child td {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: medium;
+    color: #352e29;
 }
+
+
 
 
 
@@ -318,7 +336,7 @@ table:last-child td {
     h3 {
         font-size: 0.9rem;
     }
-    .footer_list {
+    #footer_block {
         flex-direction: column;
         font-size: x-small;
     }
@@ -354,8 +372,8 @@ table:last-child td {
     }
       
     h1 {
-        font-size: 1.7rem;
-        line-height: 1.8rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
         top: 80px;
         margin: 10px;
     }
@@ -419,6 +437,10 @@ table:last-child td {
     }
     .media h3 {
         display:none;
+    }
+
+    #footer_block {
+        flex-direction: row;
     }
     .footer_list {
         flex-direction: column;

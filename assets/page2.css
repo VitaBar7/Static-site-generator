@@ -115,6 +115,8 @@ nav ul li {
 }
 
 .logo-nav img{
+    width:100px;
+    height:auto;
     border-radius:50%;
     margin-top: 36px;
     margin-left: 20px;
@@ -175,16 +177,23 @@ footer h3 {
 
 
 /* Media queries */
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
     .navigation_items {
         display: none;
     }
-    h2 {
-        font-size: 1.2rem;
+    h1 {
+        font-size: 3rem;;
     }
+
+    h2 {
+        font-size: 2rem;
+        
+    }
+
     h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 700;
     }
     .menu_burger, .navigation_login {
         display: inherit;

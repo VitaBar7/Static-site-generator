@@ -1,15 +1,15 @@
 
 
-# Bienvenu.e à mon blog Voyage-Voyage!
+<!-- # Bienvenu.e à mon blog <span>Voyage </span>! -->
 
 ## Ce mois on rêve d'Amerique du Sud, <br>ses plages, ses fôrets, ses cultures colorées...
 ### m
 
 <br>
 
-|![Sao Paolo](assets\img\sao-paulo-s.jpeg#margin) |![San Pedro](assets\img\valle-luna_luna_medium.jpg#margin) |![Buenos Aires](assets\img\buenos-aires-small.jpg#margin) |![Machu Pichu](assets\img\machu-picchu-small.jpg#margin) |
+|![Sao Paolo](assets\img\sao-paulo-s.jpeg#margin#width) |![San Pedro](assets\img\valle-luna_luna_medium.jpg#margin#width) |![Buenos Aires](assets\img\buenos-aires-small.jpg#margin#width) |![Machu Pichu](assets\img\machu-picchu-small.jpg#margin#width) |
 |:--:|:--:|:--:|:--:|
-|*Sao Paolo* **Brésil** |*Atacama* **Chili** |*Buenos Aires* **Argentine** |*Machu Pichu* **Pérou** |
+| *Sao Paolo* **Brésil** | *Atacama* **Chili** | *Buenos Aires* **Argentine** | *Machu Pichu* **Pérou** |
 
 
 
@@ -26,14 +26,14 @@
 <br>
 
 ### o
-## Mes top 9 conseils pour bien voyager :
+## Mes top conseils pour bien voyager :
 
 
 
 
-|![Girl](assets\img\pexels-vlada-karpovich-7365311.jpg#girl)|**1. Pensez à vos papiers<br>2. Définissez avec soin votre budget<br> 3. Partez au bon moment<br> 4. Emportez moins de choses<br> 5. Evitez la file de sécurité où il y a des enfants<br>6. Jetez un coup d’œil derrière vous<br>7. Apportez une banane ET un portefeuille<br> 8. Soyez flexible<br> 9. Langues et expressions clés**||<br><br>
+|![Girl](assets\img\pexels-vlada-karpovich-7365311.jpg#girl)|**1. Pensez à vos papiers<br> 2. Définissez avec soin votre budget<br> 3. Partez au bon moment<br> 4. Emportez moins de choses<br> 5. Evitez la file de sécurité pour familles<br>6. Jetez un coup d’œil derrière vous<br>7. Apportez banane & portefeuille<br> 8. Soyez flexible<br> 9. Langues & expressions clés**<br><br>
 |:--:|:--|
-| ||
+| |
 <br>
 
 ### x
